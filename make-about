@@ -11,16 +11,17 @@
 
 readarray -t ABOUT << "EOF"
 Events & Workshops
-▶ Open Source Contributions
-▶ Linux Distro Showdowns
-▶ Round tables (everyone shares what they've been doing with linux / FOSS)
+* Open Source Contributions
+* Linux Distro Showdowns
+* Round tables (everyone shares what 
+they've been doing with Linux)
 
 Community Features
-▶ Collaborative Projects
-▶ Contribute to our GitHub organization
+* Collaborative Projects
+* Contribute to our GitHub organization
 
 Mentorship Program
-▶ Learn from experienced members
+* Learn from experienced members
 EOF
 
 for line in "${ABOUT[@]}"; do

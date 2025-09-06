@@ -22,12 +22,3 @@
    [0m [38;5;120m$ curl[0m[38;5;223m lugtnuts.org/ping               [0m [38;5;87m[3mGet a 200 with the text pong[0m[0m
    [0m [38;5;120m$ curl[0m[38;5;223m [-46] lugtnuts.org/ip           [0m [38;5;87m[3mGet your current IP address as a string[0m[0m
 [0m
-    [0m[38;5;223mResources[0m[0m
-   [0m                            [0m[0m
-   [0m [38;5;120m$ curl[0m[38;5;223m style.lugtnuts.org  [0m [38;5;87m[3mBash Style Guide for writing safe scripts[0m[0m
-[0m
-    [0m[38;5;223mExtras[0m[0m
-   [0m                                  [0m[0m
-   [0m [38;5;120m$ curl[0m[38;5;223m xmas.ysap.sh | bash       [0m [38;5;87m[3mChristmas tree animation[0m[0m
-   [0m [38;5;120m$ curl[0m[38;5;223m nightfall.ysap.sh | bash  [0m [38;5;87m[3mMusic Album TUI[0m[0m
-[0m

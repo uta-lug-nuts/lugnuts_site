@@ -41,10 +41,7 @@ build: static/favicon.ico static/ysap.png static/favicon.jpg
 	./make-help > _site/help
 	# make jsonp for our HTML files
 	./make-commands-jsonp > _site/static/commands.js
-	./make-episodes-json EPISODES > _site/static/episodes.js
 	cat _site/json > _site/episodes.json
-	# create all pages for each video
-	./make-video-pages
 
 static/favicon.ico:
 	curl -o $@ https://files.daveeddy.com/ysap/favicon.ico

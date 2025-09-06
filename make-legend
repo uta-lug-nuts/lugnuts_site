@@ -52,8 +52,6 @@ legend=(
 	'$ curl lugtnuts.org%Get this page'
 	'$ curl lugtnuts.org/info%Get info about this student org'
 	'$ curl lugtnuts.org/Officers%Get info about officers'
-	'$ curl lugtnuts.org/terminal_commands%probably dont need this if you are using curl'
-	'$ curl lugtnuts.org/videos%fun videos'
 	'$ curl lugtnuts.org/resources%linux resources'
 )
 resources=()
@@ -65,14 +63,7 @@ if $full; then
 		'$ curl [-46] lugtnuts.org/ip%Get your current IP address as a string'
 	)
 
-	resources+=(
-		'$ curl style.lugtnuts.org%Bash Style Guide for writing safe scripts'
-	)
 
-	extras+=(
-		'$ curl xmas.ysap.sh | bash%Christmas tree animation'
-		'$ curl nightfall.ysap.sh | bash%Music Album TUI'
-	)
 fi
 
 format-box Legend "${legend[@]}"
